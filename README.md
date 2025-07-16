@@ -21,10 +21,3 @@ This bot listens to your voice, understands your question, generates an intellig
 | Text-to-Speech (TTS) | pyttsx3 (offline)      |
 | Audio Recording      | sounddevice, scipy   |
 
----
-
-## 📁 Project Structure
-│
-├── main.py        # Main logic: listen → respond → speak
-├── voice.py       # Handles audio recording & transcription
-├── text.py        # Handles voice output (TTS)
